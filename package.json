@@ -1,0 +1,17 @@
+{
+  "name": "rpgmakermv-plugin-actor-storage",
+  "version": "1.0.0",
+  "description": "This plugin is actor deposit system for RPG Maker MV",
+  "scripts": {
+    "build": "tsc",
+    "format": "biome format --write --verbose ./src",
+    "lint": "biome lint --write --unsafe --verbose ./src",
+    "check": "biome check --write --unsafe --verbose ./src"
+  },
+  "author": "Go Saito",
+  "license": "ISC",
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "typescript": "^5.7.3"
+  }
+}
